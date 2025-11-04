@@ -1,6 +1,11 @@
 # Klasyfikacja ręcznie rysowanych i zdigitalizowanych obrazków
 
-Projekt ten zawiera implementację modelu Computer Vision do klasyfikacji 10 rodzajów prostych, ręcznie rysowanych obrazów. Proces obejmuje analizę danych, trening kilku wariantów modeli CNN (w tym z wykorzystaniem transfer learningu), następnie porównanie wyników z trenowaniem z augmentacją danych, prezentację activation maps oraz wdrożenie najlepszego modelu w formie prostej aplikacji webowej Gradio.
+Projekt ten zawiera implementację modelu Computer Vision do klasyfikacji 10 klas obrazków, z czego każda klasa składa się z 3 rodzajów obrazków:
+* obrazki rysowane ręcznie i fotografowane
+* obrazki stworzone przy użyciu stempli i sfotografowane
+* obrazy zeskanowane bezpośrednio
+
+Proces obejmuje analizę danych, trening kilku wariantów modeli CNN (w tym z wykorzystaniem transfer learningu), następnie porównanie wyników z trenowaniem z augmentacją danych, prezentację activation maps oraz wdrożenie najlepszego modelu w formie prostej aplikacji webowej Gradio.
 
 Zbiór danych użyty w projekcie to ["Simple hand-drawn and digitized images"](https://www.kaggle.com/datasets/gergvincze/simple-hand-drawn-and-digitized-images/data) z serwisu Kaggle.
 
