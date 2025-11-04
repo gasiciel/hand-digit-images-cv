@@ -26,7 +26,7 @@ Aby uruchomić projekt lokalnie, postępuj zgodnie z poniższymi krokami:
 
 ```bash
 git clone https://github.com/gasiciel/hand-digit-images-cv
-cd hand-drawn-images-cv
+cd hand-digit-images-cv
 ```
 
 **2. Stworzenie i aktywacja środowiska wirtualnego**
